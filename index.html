@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Toboolist Exercise</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <div>
+                <img src="./img/logo.png" alt="Logo">
+            </div>
+            <div>
+                <h1>Toboolist</h1>
+            </div>
+        </header>
+        <main>
+            <section class="add">
+                <a href="#" class="addTask">Add Task</a>
+                <a href="#" class="addSection">Add Section</a>
+            </section>
+            <section class="listTask">
+                <section class="newTask">
+                    <span class="triangle-down"></span>
+                    <h2>New Task</h2>
+                    <ul>
+                        <li><span class="ball-green">&check;</span> Quarterly Newsletter <span class="editorial">Editorial</span></li>
+                    </ul>
+                </section>
+                <section class="today">
+                    <span class="triangle-down"></span>
+                    <h2>Today</h2>
+                    <ul>
+                        <li><span class="ball-green">&check;</span> Recruiting blog post <span class="editorial">Editorial</span></li>
+                        <li><span class="ball-green">&check;</span> Mobile app launch <span class="goals">Q1 Goals</span></li>
+                        <li><span class="ball-red">&cross;</span> Interview John H. <span class="recruit">Recruiting</span></li>
+                        <li><span class="ball-green">&check;</span> Summit update to mobile storefronts <span class="mobile">Mobile</span></li>
+                    </ul>
+                </section>
+                <section class="upcoming">
+                    <span class="triangle-down"></span>
+                    <h2>Upcoming</h2>
+                    <ul>
+                        <li><span class="ball-red">&cross;</span> Schedule Meeting with Alex</li>
+                        <li><span class="ball-green">&check;</span> Homepage refresh <span class="web">Website</span></li>
+                        <li><span class="ball-green">&check;</span> Onboard new Sales team members <span class="sales">Sales</span></li>
+                        <li><span class="ball-green">&check;</span> Review editorial calendar <span class="editorial">Editorial</span></li>
+                    </ul>
+                </section>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
